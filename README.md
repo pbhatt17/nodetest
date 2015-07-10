@@ -1,11 +1,10 @@
-I'm testing:
-- c9.io
-- nodejs sample app using express
-- cloud9 --> github repo
-- github repo --> docker automated build
-- docker on OSX via parallels and ubuntu, vagrant boot2docker
-- docker on Azure
-
+## I'm testing:
+1. c9.io
+2. nodejs sample app using express
+3. c9.io --> github repo
+4. github repo --> hub.docker.com automated build
+5. hub.docker.com --> docker on OSX via parallels/ubuntu, vagrant/boot2docker
+6. hub.docker.com --> docker on Azure for giggles
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
