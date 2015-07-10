@@ -1,3 +1,11 @@
+I'm testing:
+- c9.io
+- nodejs sample app using express
+- cloud9 --> github repo
+- github repo --> docker automated build
+- docker on OSX via parallels and ubuntu, vagrant boot2docker
+- docker on Azure
+
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
