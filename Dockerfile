@@ -1,7 +1,7 @@
 FROM google/nodejs
 
-WORKDIR /app
 RUN npm install
+WORKDIR /app
 ADD . /app
 
 CMD []
