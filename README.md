@@ -1,11 +1,9 @@
 ## I'm testing:
-1. c9.io
-2. nodejs sample app using express
-3. c9.io --> github repo
-4. github repo --> hub.docker.com automated build
-5. hub.docker.com --> docker on OSX via parallels/ubuntu, vagrant/boot2docker
-6. hub.docker.com --> docker on Azure for giggles
-
+1. c9.io for web IDE and nodejs sample app using express
+2. c9.io --> github repo
+3. github repo --> hub.docker.com automated build
+4. hub.docker.com --> docker on OSX via parallels/ubuntu, vagrant/boot2docker
+5. hub.docker.com --> docker on Azure for giggles
 
 Welcome to your Node.js project on Cloud9 IDE!
 
