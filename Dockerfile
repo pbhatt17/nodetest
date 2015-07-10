@@ -5,5 +5,5 @@ COPY . /app
 RUN cd /app; npm install
 
 CMD []
-ENTRYPOINT ["/nodejs/bin/npm", "start"]
+ENTRYPOINT ["npm", "start"]
 EXPOSE 3000

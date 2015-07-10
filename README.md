@@ -6,6 +6,6 @@
 4. hub.docker.com --> docker on OSX via parallels/ubuntu, vagrant/boot2docker
 5. hub.docker.com --> docker on Azure for giggles
 
-github.com/watkinspd
+Source repo: https://github.com/watkinspd/nodetest
 
 
