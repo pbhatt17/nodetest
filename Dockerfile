@@ -1,8 +1,8 @@
 FROM google/nodejs
 
-RUN npm install
 WORKDIR /app
-ADD . /app
+COPY . /app
+RUN cd /app; npm install
 
 CMD []
 ENTRYPOINT ["/nodejs/bin/npm", "start"]
