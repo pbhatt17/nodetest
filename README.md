@@ -8,7 +8,9 @@
 5. hub.docker.com --> docker on Azure for giggles
 
 Github repo: https://github.com/watkinspd/nodetest
+
 Docker repo: https://registry.hub.docker.com/u/watkinspd/nodetest/
+
 IDE: https://c9.io
 
 
