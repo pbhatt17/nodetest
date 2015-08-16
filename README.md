@@ -5,6 +5,7 @@
 4. hub.docker.com --> docker on OSX via parallels/ubuntu boot2docker coreos
 5. hub.docker.com --> docker on Azure for giggles
 6. hub.docker.com --> cloud.google.com
+7. hub.docker.com --> coreos
 
 Github repo: https://github.com/watkinspd/nodetest
 
