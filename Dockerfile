@@ -6,4 +6,4 @@ RUN cd /app; npm install
 
 CMD []
 ENTRYPOINT ["npm", "start"]
-EXPOSE 3000
+EXPOSE 8080
