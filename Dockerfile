@@ -1,4 +1,4 @@
-FROM node:4.2.6-onbuild
+FROM node:0.10
 
 WORKDIR /app
 COPY . /app
