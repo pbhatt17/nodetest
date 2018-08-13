@@ -20,6 +20,8 @@ var router = express();
 var server = http.createServer(router);
 var io = socketio.listen(server);
 
+var listenPort = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080;
+
 router.use(express.static(path.resolve(__dirname, 'client')));
 var messages = [];
 var sockets = [];
@@ -78,7 +80,7 @@ function broadcast(event, data) {
   });
 }
 
-server.listen(process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 8080, process.env.OPENSHIFT_NODEJS_IP || process.env.IP || "0.0.0.0", function(){
+server.listen(listenPort, function(){
   var addr = server.address();
-  console.log("Chat server listening at", process.env.IP + ":" + addr.port);
+  console.log("Chat server listening at", addr.address + ":" + addr.port);
 });
